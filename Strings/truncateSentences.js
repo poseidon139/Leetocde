@@ -1,3 +1,6 @@
+//https://leetcode.com/problems/truncate-sentence/description/
+
+
 var truncateSentence = function(s, k) {
     let res="";
     let words=s.split(' ');

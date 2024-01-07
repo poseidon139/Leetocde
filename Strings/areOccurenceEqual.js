@@ -17,7 +17,7 @@ var areOccurrencesEqual = function(s) {
             map.set(s.charAt(i),count);
         }
     }
-    // console.log(map)
+    // console.log(map) 
     const it=map.values();
     for (let i =0 ; i < map.size ; i++){
         arr[i]=it.next().value;
